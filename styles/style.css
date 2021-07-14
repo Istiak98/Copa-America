@@ -179,18 +179,28 @@ color: #FFFFFF;
     }  
     .players{
         grid-template-columns: repeat(1,1fr);
-        margin: 0%;
+        margin-top: 15px;
+        margin-left: 2px;
         flex-direction: column;
+        width: 100%;
+        /* align-items: center; */
+    }
+    .players h4{
+font-size: 20px;
+    }
+    .players p{
+        font-size: 10px;
     }
     
     .cn{
+        margin-top: 10px;
         flex-direction: column;
         margin-left: 5px;
         margin-right: 10px;
     }
  .country{
         flex-direction: column;
-        margin-left: 5px;
+        /* margin-left: 5px; */
         margin-right: 10px;
         
     } 
