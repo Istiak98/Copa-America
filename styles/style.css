@@ -1,0 +1,206 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* --------------common styles------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    width: 100%;
+}
+h3{
+    font-size: 64px;
+}
+/* ------------------header text and image style----------------- */
+.head{
+display: flex;
+width:100%; 
+background-color: #2d25a0;
+color: #FFFFFF;
+ /* position:fixed;  */
+/* overflow: hidden; */
+}
+.header-part-text{
+    width: 50%;
+    margin-left: 156px;
+    margin-top: 207px;
+    margin-bottom: 240px; 
+    /* margin-right: 799px;  */
+}
+.header-part-img img{
+    width: 557px;
+    height: 438px;
+    margin-top: 153px;
+    margin-right: 141px;
+    margin-bottom: 86px;
+    /* margin-left: 743px; */
+
+}
+.header-part-img img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.header-button{
+    text-decoration: none;
+    background-image: linear-gradient(#E02C6D,#E02C6D);
+    color: white;
+    padding: 10px 24px ;
+    top:464px;
+    font-weight: 700;
+}
+
+/*--------------------------- player card style--------------- */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-left: 180px; 
+    margin-right: 210px;
+    margin-top: 70px; 
+    margin-bottom: 50px; 
+} 
+
+.card-player{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+     /* margin-top: 70px;  */
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+} 
+.card-player img{
+    width: 330px;
+    height: 256px;
+}  
+.player-detail h4{
+    margin-top: 16px;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.player-detail p{
+    margin-top: 0px;
+    font-size: 16px;
+    margin-bottom: 33px;
+}
+ 
+ 
+/* ---------------middle part----------------- */
+.champion{
+    text-align: center;
+    width: 100%;
+}
+
+/* extra 2 */
+.country{
+    display: flex;
+    width: 100%;
+    color:black;
+     /* position:fixed;  */
+    overflow: hidden;
+    }
+    .cn{
+        width: 50%;
+        margin-left: 182px;
+        margin-top: 224px;
+        margin-bottom: 180px; 
+        /* margin-right: 799px;  */
+    }
+    .cn h4{
+        font-size: 48px;
+    }
+    .cn p{
+        padding-top: 0;
+        font-size: 16px;
+    }
+    .cn-button{
+        text-decoration: none;
+        background-image: linear-gradient(green,yellow);
+        color: white;
+        padding: 10px 24px 10px 24px;
+        top:10px;
+        font-weight: 700;
+        margin-top: 24px;
+    }
+    .cn-img img{
+        width: 567px;
+        height: 600px;
+        margin-top: 165px;
+        margin-right: 156px;
+        /* margin-bottom: 434px; */
+        /* margin-left: 717px; */
+    }
+
+           
+ /*-------------------- footer -------------------------*/
+ .footer-img img{
+     width: 489px;
+     height: 110px;
+ }
+ .footer-img{
+    text-align: center;
+ }
+ i {
+    text-align: center;
+    display: inline-block;
+    margin-right: 1em;
+    /* text-decoration: none; */
+    
+  }
+.icon-footer{
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 50px; 
+}
+.fa-instagram,.fa-dribbble,.fa-twitter,.fa-youtube{
+    color: gray;
+}
+
+
+/* Media Query */
+@media only screen and (max-width:688px) {
+    .head{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 425px;
+    } 
+    .header-part-text{
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 10px;   
+    }
+    .header-part-img img{
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 10px;   
+    }  
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0%;
+        flex-direction: column;
+    }
+    
+    .cn{
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+ .country{
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 10px;
+        
+    } 
+    .icon-footer{
+        margin-left: 5px;
+        margin-right: 10px;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+}
+
