@@ -16,15 +16,12 @@ display: flex;
 width:100%; 
 background-color: #2d25a0;
 color: #FFFFFF;
- /* position:fixed;  */
-/* overflow: hidden; */
 }
 .header-part-text{
     width: 50%;
     margin-left: 156px;
     margin-top: 207px;
     margin-bottom: 240px; 
-    /* margin-right: 799px;  */
 }
 .header-part-img img{
     width: 557px;
@@ -32,8 +29,6 @@ color: #FFFFFF;
     margin-top: 153px;
     margin-right: 141px;
     margin-bottom: 86px;
-    /* margin-left: 743px; */
-
 }
 .header-part-img img:hover{
     transform: scale(1.1);
@@ -66,7 +61,6 @@ color: #FFFFFF;
     height: 474px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-     /* margin-top: 70px;  */
     padding-top: 15px;
     padding-right: 15px;
     padding-left: 15px;
@@ -99,15 +93,13 @@ color: #FFFFFF;
     display: flex;
     width: 100%;
     color:black;
-     /* position:fixed;  */
     overflow: hidden;
     }
     .cn{
         width: 50%;
         margin-left: 182px;
         margin-top: 224px;
-        margin-bottom: 180px; 
-        /* margin-right: 799px;  */
+        margin-bottom: 180px;      
     }
     .cn h4{
         font-size: 48px;
@@ -129,9 +121,7 @@ color: #FFFFFF;
         width: 567px;
         height: 600px;
         margin-top: 165px;
-        margin-right: 156px;
-        /* margin-bottom: 434px; */
-        /* margin-left: 717px; */
+        margin-right: 156px;       
     }
 
            
@@ -146,9 +136,7 @@ color: #FFFFFF;
  i {
     text-align: center;
     display: inline-block;
-    margin-right: 1em;
-    /* text-decoration: none; */
-    
+    margin-right: 1em;  
   }
 .icon-footer{
     text-decoration: none;
@@ -182,16 +170,14 @@ color: #FFFFFF;
         margin-top: 15px;
         margin-left: 2px;
         flex-direction: column;
-        width: 100%;
-        /* align-items: center; */
+        width: 100%;    
     }
     .players h4{
-font-size: 20px;
+         font-size: 20px;
     }
     .players p{
         font-size: 10px;
-    }
-    
+    } 
     .cn{
         margin-top: 10px;
         flex-direction: column;
@@ -200,7 +186,6 @@ font-size: 20px;
     }
  .country{
         flex-direction: column;
-        /* margin-left: 5px; */
         margin-right: 10px;
         
     } 
